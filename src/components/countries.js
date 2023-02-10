@@ -50,7 +50,7 @@ export function Countries() {
             field: 'languages',
             headerClassName: "table__header",
             headerName: 'Languages',
-            width: 200,
+            width: 300,
             renderCell: (params) => (
                 getLanguages(params.row.languages)
             )
