@@ -1,11 +1,19 @@
-import Countries from './components/countries';
+import { Routes, Route } from 'react-router-dom';
+import NoMatch from './components/NoMatch';
 import Country from './components/country';
-import './App.css';
+import { Countries } from './components/countries';
 
 function App() {
   return (
     <div className="App">
-      <Countries/>
+      <>
+       <Routes>
+          <Route path="/" element={<Countries/>} />
+          <Route path="/country/:slug" element={<Country />} />
+          <Route path="*" element={<NoMatch />} />
+       </Routes>
+      </>
+      {/* <CountriesGrid/> */}
     </div>
   );
 }
