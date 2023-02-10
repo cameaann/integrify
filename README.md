@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# Technical assignment for Full Stack Studying Program
 It is a technical assignment for the selection process for Full Stack Program in Finland.
 Here I've got to know React hooks and Material UI.
 
