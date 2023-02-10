@@ -72,10 +72,6 @@ export function Countries() {
         },
     ];
 
-    function showCountry(val) {
-        if (val)
-            console.log(val)
-    };
 
     return (
         <div style={{ height: 380, width: '100%' }}>
