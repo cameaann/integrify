@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+It is a technical assignment for the selection process for Full Stack Program in Finland.
+Here I've got to know React hooks and Material UI.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
