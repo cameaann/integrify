@@ -8,12 +8,12 @@ function App() {
     <div className="App">
       <>
        <Routes>
-          <Route path="/" element={<Countries/>} />
+          <Route index path="/" element={<Countries/>} />
           <Route path="/country/:slug" element={<Country />} />
           <Route path="*" element={<NoMatch />} />
        </Routes>
       </>
-      {/* <CountriesGrid/> */}
+      
     </div>
   );
 }
