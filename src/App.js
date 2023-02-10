@@ -10,10 +10,10 @@ function App() {
        <Routes>
           <Route index path="/" element={<Countries/>} />
           <Route path="/country/:slug" element={<Country />} />
-          <Route path="*" element={<NoMatch />} />
+          <Route path="*" element={<Countries />} />
        </Routes>
       </>
-      
+
     </div>
   );
 }
